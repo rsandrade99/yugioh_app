@@ -1,3 +1,5 @@
+# YugiohApp
+
 # 📦 `CartaItem` Widget - Flutter
 
 Componente personalizado y reutilizable en Flutter para mostrar tarjetas visualmente atractivas con imagen, título, subtítulo y descripción con desplazamiento suave. Ideal para catálogos, e-commerce, apps de contenido o listas interactivas.
@@ -69,5 +71,10 @@ CardItem(
 
 ## 🧑‍💻 Autor
 
-**Robert**  
+**Robert Andrade**  
 Ingeniero en Tecnologías de Información  
+Desarrollador Flutter especializado en arquitectura escalable, diseño profesional y experiencia de usuario.
+- [GitHub](https://github.com/rsandrade99) 
+- [LinkedIn](https://www.linkedin.com/in/rsandradea99/) 
+- rsandradea@gmail.com
+- [Instagram](https://www.instagram.com/robert_0899/)

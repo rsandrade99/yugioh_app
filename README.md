@@ -1,4 +1,4 @@
-# 📦 `CardItem` Widget - Flutter
+# 📦 `CartaItem` Widget - Flutter
 
 Componente personalizado y reutilizable en Flutter para mostrar tarjetas visualmente atractivas con imagen, título, subtítulo y descripción con desplazamiento suave. Ideal para catálogos, e-commerce, apps de contenido o listas interactivas.
 
@@ -16,22 +16,22 @@ Componente personalizado y reutilizable en Flutter para mostrar tarjetas visualm
 lib/
 ├── domain/
 │   └── entities/
-│       └── card_entity.dart         # Modelo de datos de la tarjeta
+│       └── carta_entity.dart         # Modelo de datos de la tarjeta
 ├── presentation/
-│   └── ui/
+│   └── widgets/
 │       ├── atoms/
 │       │   └── wid_text.dart        # Widget de texto estilizado (CustomText)
 │       ├── molecules/
-│       │   └── wid_card_imagen.dart # Widget de imagen con decoración
+│       │   └── wid_carta_imagen.dart # Widget de imagen con decoración
 │       └── organisms/
-│           └── card_item.dart       # ESTE widget
+│           └── carta_item.dart       # ESTE widget
 ```
 
 ## 🧪 Uso
 
 ```dart
 CardItem(
-  card: CardEntity(
+  card: CartaEntity(
     name: 'Nombre del producto',
     type: 'Categoría',
     description: 'Descripción larga del producto...',
@@ -47,7 +47,7 @@ CardItem(
 
 - `flutter`
 - `responsive_framework`
-- Widgets personalizados: `CardImage`, `CustomText`
+- Widgets personalizados: `CartaImage`, `CustomText`
 
 ## 🔮 Preview (Mockup visual imaginario)
 

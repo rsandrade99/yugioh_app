@@ -3,8 +3,8 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 import '../../../domain/entities/carta_entity.dart';
-import '../atoms/wid_text.dart';
-import '../molecules/wid_carta_imagen.dart';
+import '../atoms/custom_text.dart';
+import '../molecules/carta_imagen.dart';
 
 class CartaItem extends StatelessWidget {
   final CartaEntity card;

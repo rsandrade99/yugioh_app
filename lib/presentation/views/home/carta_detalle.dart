@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../../domain/entities/carta_entity.dart';
-import '../../widgets/atoms/wid_text.dart';
-import '../../widgets/molecules/wid_carta_imagen.dart';
+import '../../widgets/atoms/custom_text.dart';
+import '../../widgets/molecules/carta_imagen.dart';
 
 class DetalleCartaDialog extends StatelessWidget {
   final CartaEntity card;

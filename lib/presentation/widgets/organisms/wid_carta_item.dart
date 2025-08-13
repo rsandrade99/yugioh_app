@@ -22,11 +22,12 @@ class CartaItem extends StatelessWidget {
       child: Material(
         elevation: 8,
         borderRadius: BorderRadius.circular(20),
-        shadowColor: Colors.deepPurpleAccent.withOpacity(0.3),
+        shadowColor: Colors.deepPurpleAccent.withAlpha((0.3 * 255).round()),
+
         child: InkWell(
           onTap: onTap,
           borderRadius: BorderRadius.circular(20),
-          splashColor: Colors.deepPurpleAccent.withOpacity(0.2),
+          splashColor: Colors.deepPurpleAccent.withAlpha((0.2 * 255).round()),
           highlightColor: Colors.deepPurpleAccent.withOpacity(0.1),
           child: AnimatedContainer(
             duration: 250.ms,

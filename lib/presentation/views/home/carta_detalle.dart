@@ -124,6 +124,7 @@ class DetalleCartaDialog extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(vertical: 14),
                     elevation: 4,
                     shadowColor: Colors.indigo.withOpacity(0.5),
+                    
                   ),
                   icon: const Icon(Icons.close),
                   label: const Text('Cerrar'),
